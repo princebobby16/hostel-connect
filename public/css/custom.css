@@ -1,0 +1,128 @@
+
+.form{
+    max-width: 500px;
+    margin: 100px auto;
+    padding: 5vw;
+    padding-right: 10px;
+    background-color: rgb(244, 243, 245);
+    border-radius: 16px;
+    box-shadow: 10px 10px 8px #7c7b7b; 
+}
+
+.logo{
+  position: absolute;
+}
+
+.banner{
+  background-image: url("../assets/img/pic.jpg");
+  max-width: 100%;
+  max-height: 100%;
+  /* background: rgb(105, 58, 150); */
+  background: no-repeat;
+  background: none;
+  margin: 0px;
+  padding: 5vw;
+  border-bottom-left-radius: 100px;
+  border-top-right-radius: 100px; 
+  width: 100%;
+  animation: changeImage;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  /* float: left; */
+
+}
+.hostel-heading{
+  color: whitesmoke;
+}
+.about-content{
+  font-family: Nunito,sans-serif;
+}
+
+.bigText{
+  font-size: 72px;
+}
+body{
+  background: rgb(244, 243, 245); 
+}
+.about-header{
+  margin-top: 30px;
+}
+we{
+  border-bottom: 10px solid rgb(77, 19, 102);
+}
+small{
+  font-size: 15px;
+  color: rgb(189, 179, 179);
+}
+.register-header{
+  color: black;
+  margin: 30px;
+  /* padding: 10px 20px;
+  border-radius: 5px;
+  background: rgb(85, 22, 145); */
+
+}
+
+.footer-text{
+  padding: 30px;
+  color: white;
+}
+
+.footer-area{
+  background: #333;
+}
+
+.text-style{
+  color: rgb(250, 245, 245);
+  font-size: 20px;
+}
+.title{
+  color: black;
+}
+
+/* Animation code goes here */
+@keyframes changeImage{
+  0%{background-image: url("../assets/img/pic.jpg");}
+  20%{background-image: url("../assets/img/pic1.jpg");}
+  40%{background-image: url("../assets/img/pic2.jpg");}
+  60%{background-image: url("../assets/img/pic3.jpg");}
+  80%{background-image: url("../assets/img/pic.jpg");}
+  100%{background-image: url("../assets/img/pic4.jpg");}
+}
+
+.navigation{
+  background-color: #333;
+  overflow: hidden;
+  position: sticky;
+  border-radius: 3px;
+}
+
+.navigation a{
+  float: right;
+  text-decoration: none;
+  text-align: center;
+  color: white;
+  padding: 14px 16px;
+  font-size: 17px;
+}
+
+.navigation a:hover{
+  background-color: #7c7b7b;
+  color: white;
+}
+
+.navigation a.active{
+  background-color: rgb(24, 22, 22);
+  color: white;
+}
+
+.navigation .icon{
+  display: none;
+}
+
+@media (max-width: 400px){
+  .logo{
+    display: none;
+  }
+}
