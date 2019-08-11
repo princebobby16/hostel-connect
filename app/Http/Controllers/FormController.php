@@ -87,7 +87,7 @@ class FormController extends Controller
             'email' => $request->input('email'),
             'phone_number' => $request->input('phone_number'),
             'comment' => $request->input('textarea'),
-            'school' => $request->input('select'),
+            'school' => $select,
         ];
 
         $getResponse = $client->post(

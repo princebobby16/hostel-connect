@@ -12,16 +12,24 @@
 </head>
 
 <body>
-    <div class="navigation" id="myTopnav">
-        <a href="/" class="active">Home</a>
-        <a href="/register">Request</a>
-        <a href="/contact">Contact</a>
-        <a href="/about">About</a>
-        <div class="logo">
-            <a href="#"><img style="float:left" src="{{ url('../assets/img/logo.jpg') }}" alt="logo" width="40px" height="30px"></a>
-
+    <nav class="navi navbar navbar-dark bg-dark navbar-inverse navbar-expand-md sticky-top" id="myTopnav">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">
+                <img src="{{ url('../assets/img/logo.jpg') }}" alt="logo" width="40px" height="30px">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fall">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="fall">
+                <ul class="nav navbar-nav ml-auto">
+                    <li class="nav-item"> <a href="/contact" class="nav-link">Contact Us</a> </li>
+                    <li class="nav-item"> <a href="/about" class="nav-link">About</a> </li>
+                    <li class="nav-item"> <a href="/register" class="nav-link">Register</a> </li>
+                    <li class="nav-item active"> <a href="/" class="nav-link">Home</a> </li>
+                </ul>
+            </div>
         </div>
-    </div>
+    </nav>
     <div class="container">
         @if(count($errors) > 0)
         @foreach($errors->all() as $error)
