@@ -3,7 +3,10 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width,
+                                initial-scale=1.0, 
+                                maximum-scale=1.0, 
+                                user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/app.css">
     <link rel="icon" type="image/jpg" href="/assets/img/logo.jpg" />
@@ -12,20 +15,20 @@
 </head>
 
 <body>
-    <nav class="navi navbar navbar-dark bg-dark navbar-inverse navbar-expand-md sticky-top" id="myTopnav">
+    <nav class="navi navbar navbar-dark bg-dark navbar-dropdown align-items-center navbar-toggleable-sm navbar-expand-md sticky-top" role="navigation" id="myTopnav">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">
                 <img src="{{ url('../assets/img/logo.jpg') }}" alt="logo" width="40px" height="30px">
             </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#fall">
+            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#fall">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="fall">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item"> <a href="/contact" class="nav-link">Contact Us</a> </li>
-                    <li class="nav-item"> <a href="/about" class="nav-link">About</a> </li>
-                    <li class="nav-item"> <a href="/register" class="nav-link">Register</a> </li>
-                    <li class="nav-item active"> <a href="/" class="nav-link">Home</a> </li>
+                    <li> <a href="/contact" class="nav-link">Contact Us</a> </li>
+                    <li> <a href="/about" class="nav-link">About</a> </li>
+                    <li> <a href="/register" class="nav-link">Register</a> </li>
+                    <li class="active"> <a href="/" class="nav-link">Home</a> </li>
                 </ul>
             </div>
         </div>

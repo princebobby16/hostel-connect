@@ -9,8 +9,15 @@
     box-shadow: 10px 10px 8px #7c7b7b; 
 }
 
+.jumbo{
+  margin-top: 10px;
+}
+
 .logo{
   position: absolute;
+}
+.hostel-head{
+  padding: 1vw;
 }
 
 .banner{
