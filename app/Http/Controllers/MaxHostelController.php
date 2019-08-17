@@ -13,7 +13,8 @@ class MaxHostelController extends Controller
      */
     public function index()
     {
-        //
+        $data = [];
+        return view('gallery', $data);
     }
 
     /**

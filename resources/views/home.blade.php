@@ -28,7 +28,6 @@
                 <div class="btn-group">
                   <a href="/gallery" class="btn btn-info">View</a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -43,7 +42,6 @@
                 <div class="btn-group">
                 <a href="/gallery" class="btn btn-info">View</a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -58,7 +56,6 @@
                 <div class="btn-group">
                 <a href="/gallery" class="btn btn-info">View</a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -74,7 +71,6 @@
                 <div class="btn-group">
                 <a href="/gallery" class="btn btn-info">View</a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -89,7 +85,6 @@
                 <div class="btn-group">
                 <a href="/gallery" class="btn btn-info">View</a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -104,7 +99,6 @@
                 <div class="btn-group">
                 <a href="/gallery" class="btn btn-info">View</a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -119,7 +113,6 @@
                 <div class="btn-group">
                 <a href="/gallery" class="btn btn-info">View</a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -134,7 +127,6 @@
                 <div class="btn-group">
                 <a href="/gallery" class="btn btn-info">View</a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -149,7 +141,6 @@
                 <div class="btn-group">
                 <a href="/gallery" class="btn btn-info">View</a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -164,7 +155,6 @@
                 <div class="btn-group">
                 <a href="/gallery" class="btn btn-info">View</a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -179,7 +169,6 @@
                 <div class="btn-group">
                 <a href="/gallery" class="btn btn-info">View</a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
@@ -194,7 +183,6 @@
                 <div class="btn-group">
                 <a href="/gallery" class="btn btn-info">View</a>
                 </div>
-                <small class="text-muted">9 mins</small>
               </div>
             </div>
           </div>
