@@ -13,6 +13,11 @@ class YellowHostelController extends Controller
      */
     public function index()
     {
+        $facilities = [
+            'Fridge',
+            'Washing Machine',
+            'Television'
+        ];
         $data = [
             'hostel_name' => 'Yellow Hostel',
             'location' => 'East of Legon',
@@ -21,10 +26,7 @@ class YellowHostelController extends Controller
             It is located close to a busy route while 
             it also offers fantastic facilities. 
             Utilities are taken care of.',
-            'Facilities' => [
-                'Communal kitchen',
-                'Free Gas'
-            ],
+            'Facilities' => $facilities
         ];
         return view('gallery', $data);
     }

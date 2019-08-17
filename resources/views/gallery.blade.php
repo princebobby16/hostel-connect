@@ -25,9 +25,13 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Product2</td>
-                                            <td>23/11/2013</td>
-                                            <td>Pending</td>
+                                            <td>Facilities</td>
+                                            <td><ul>
+                                                @foreach($Facilities as $item)
+                                                <li>$item</li>
+                                                @endforeach
+                                            </ul></td>
+                                            <td>{{ $location }}</td>
                                         </tr>
                                     </tbody>
                                 </table>

@@ -13,6 +13,7 @@ class TheHavenHostelController extends Controller
      */
     public function index()
     {
+        
         $data = [
             'hostel_name' => 'The Haven Hostel',
             'location' => 'West of Legon',

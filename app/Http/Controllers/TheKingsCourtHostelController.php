@@ -13,6 +13,7 @@ class TheKingsCourtHostelController extends Controller
      */
     public function index()
     {
+        
         $data = [
             'hostel_name' => 'KingsCourt Hostel',
             'location' => 'West of Legon',
@@ -23,7 +24,7 @@ class TheKingsCourtHostelController extends Controller
             It has a per semester payment model. 
             Water is free but students foot the 
             Light Bill.',
-            'Facilities' => [
+            'Facilities' =>[
                 'Fridge',
                 'Bathtub',
                 'Television'

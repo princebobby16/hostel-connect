@@ -16,7 +16,12 @@ class MaxHostelController extends Controller
         $data = [
             'hostel_name' => 'Max Hostel',
             'location' => 'West of Legon',
-            'description' => '',
+            'description' => 'Max Hostel 
+            has a per semester or yearly 
+            payment model it is located near 
+            a busy route and very affordable.
+            Water is free but Students pay 
+            for the light bill.',
             'Facilities' => [
                 'Communal Kitchen',
                 'Free Wifi'
