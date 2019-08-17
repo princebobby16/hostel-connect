@@ -14,9 +14,12 @@ class KHostelController extends Controller
     public function index()
     {
         $data = [
-            'hostel_name' => 'K ',
+            'hostel_name' => 'K Hostel',
             'location' => 'West of Legon',
-            'description' => '',
+            'description' => 'K Hostel situates at 
+            an exclusive area with an appartment 
+            structure and is open to per semester 
+            or yearly payment arrangement',
             'Facilities' => [
                 'Shared Kitchen',
                 'Communal Fridge',

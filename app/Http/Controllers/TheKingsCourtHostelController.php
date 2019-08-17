@@ -16,7 +16,13 @@ class TheKingsCourtHostelController extends Controller
         $data = [
             'hostel_name' => 'KingsCourt Hostel',
             'location' => 'West of Legon',
-            'description' => '',
+            'description' => 'KingsCourt is 
+            a top-notch Hostel with all 
+            the needs of the student for a 
+            comfortable stay provided for. 
+            It has a per semester payment model. 
+            Water is free but students foot the 
+            Light Bill.',
             'Facilities' => [
                 'Fridge',
                 'Bathtub',

@@ -16,7 +16,11 @@ class YellowHostelController extends Controller
         $data = [
             'hostel_name' => 'Yellow Hostel',
             'location' => 'East of Legon',
-            'description' => '',
+            'description' => 'Yellow Hostel 
+            has a per semester payment arrangement. 
+            It is located close to a busy route while 
+            it also offers fantastic facilities. 
+            Utilities are taken care of.',
             'Facilities' => [
                 'Communal kitchen',
                 'Free Gas'

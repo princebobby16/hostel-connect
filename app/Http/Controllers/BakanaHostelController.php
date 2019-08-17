@@ -16,13 +16,17 @@ class BakanaHostelController extends Controller
         $data = [
             'hostel_name' => 'Bakana Hostel',
             'location' => 'West of Legon',
-            'description' => '',
+            'description' => 'Bakana Hostel 
+            is a top-notch Hostel offering 
+            facilities that equate the price 
+            with a per semester payment arrangement.
+            Water is free but light bill is payed for.',
             'Facilities' => [
                 'Fridge',
                 'Personal Kitchen',
                 'Television',
                 'Bathtub',
-                'Air Condition'
+                'Air Condition',
             ],
         ];
 

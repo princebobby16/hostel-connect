@@ -16,7 +16,11 @@ class TheHavenHostelController extends Controller
         $data = [
             'hostel_name' => 'The Haven Hostel',
             'location' => 'West of Legon',
-            'description' => '',
+            'description' => '
+            This Hostel has a per 
+            semester payment arrangement 
+            with close proximity to GIMPA and 
+            University of Ghana campuses',
             'Facilities' => [
                 'Free Gas',
                 'Rentable Fridge',

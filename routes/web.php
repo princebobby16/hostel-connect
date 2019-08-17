@@ -26,12 +26,21 @@ Route::get('/terms-of-service', function () {
 
 Route::get('/gallery/foster', 'FosterHostelController@index');
 Route::get('/gallery', 'GalleryController@index');
-// Route::get('/gallery/jp', 'JPromptController@index');
+Route::get('/gallery/jp', 'JPromptHostelController@index');
 Route::get('/gallery/kings', 'TheKingsCourtHostelController@index');
 Route::get('/gallery/testimony', 'ATestimonyHostelController@index');
 Route::get('/gallery/haven', 'TheHavenHostelController@index');
 Route::get('/gallery/max', 'MaxHostelController@index');
 Route::get('/gallery/k', 'KHostelController@index');
+Route::get('/gallery/linda', 'LindaHostelController@index');
+Route::get('/gallery/pina', 'PinaPalaceHostelController@index');
+Route::get('/gallery/bakana', 'BakanaHostelController@index');
+Route::get('/gallery/linda', 'LindaHostelController@index');
+Route::get('/gallery/ark', 'ArkHostelController@index');
+Route::get('/gallery/yellow', 'YellowHostelController@index');
+
+
+
 
 
 Route::get('/contact', function () {

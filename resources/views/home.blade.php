@@ -26,7 +26,7 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                  <a href="/gallery" class="btn btn-info">View</a>
+                  <a href="/gallery/linda" class="btn btn-info">View</a>
                 </div>
               </div>
             </div>
@@ -40,7 +40,7 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <a href="/gallery" class="btn btn-info">View</a>
+                <a href="/gallery/jp" class="btn btn-info">Views</a>
                 </div>
               </div>
             </div>
@@ -54,7 +54,7 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <a href="/gallery" class="btn btn-info">View</a>
+                <a href="/gallery/kings" class="btn btn-info">View</a>
                 </div>
               </div>
             </div>
@@ -69,7 +69,7 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <a href="/gallery" class="btn btn-info">View</a>
+                <a href="/gallery/testimony" class="btn btn-info">View</a>
                 </div>
               </div>
             </div>
@@ -83,7 +83,7 @@
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <a href="/gallery" class="btn btn-info">View</a>
+                <a href="/gallery/ark" class="btn btn-info">View</a>
                 </div>
               </div>
             </div>
@@ -91,13 +91,13 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-          <h5 class="text-center hostel-head">ARK HOSTEL</h5>
+          <h5 class="text-center hostel-head">MAX HOSTEL</h5>
           <img src="{{ url('assets/img/img1.jpeg') }}" class="img-responsive" alt="img">
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <a href="/gallery" class="btn btn-info">View</a>
+                <a href="/gallery/max" class="btn btn-info">View</a>
                 </div>
               </div>
             </div>
@@ -105,13 +105,13 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-          <h5 class="text-center hostel-head">ARK HOSTEL</h5>
+          <h5 class="text-center hostel-head">K HOSTEL</h5>
           <img src="{{ url('assets/img/img1.jpeg') }}" class="img-responsive" alt="img">
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <a href="/gallery" class="btn btn-info">View</a>
+                <a href="/gallery/k" class="btn btn-info">View</a>
                 </div>
               </div>
             </div>
@@ -119,13 +119,13 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-          <h5 class="text-center hostel-head">ARK HOSTEL</h5>
+          <h5 class="text-center hostel-head">PINA PALACE HOSTEL</h5>
           <img src="{{ url('assets/img/img1.jpeg') }}" class="img-responsive" alt="img">
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <a href="/gallery" class="btn btn-info">View</a>
+                <a href="/gallery/pina" class="btn btn-info">View</a>
                 </div>
               </div>
             </div>
@@ -133,13 +133,13 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-          <h5 class="text-center hostel-head">ARK HOSTEL</h5>
+          <h5 class="text-center hostel-head">YELLOW HOSTEL</h5>
           <img src="{{ url('assets/img/img1.jpeg') }}" class="img-responsive" alt="img">
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <a href="/gallery" class="btn btn-info">View</a>
+                <a href="/gallery/yellow" class="btn btn-info">View</a>
                 </div>
               </div>
             </div>
@@ -147,13 +147,13 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-          <h5 class="text-center hostel-head">ARK HOSTEL</h5>
+          <h5 class="text-center hostel-head">FOSTER HOSTEL</h5>
           <img src="{{ url('assets/img/img1.jpeg') }}" class="img-responsive" alt="img">
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <a href="/gallery" class="btn btn-info">View</a>
+                <a href="/gallery/foster" class="btn btn-info">View</a>
                 </div>
               </div>
             </div>
@@ -161,13 +161,13 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-          <h5 class="text-center hostel-head">ARK HOSTEL</h5>
+          <h5 class="text-center hostel-head">THE HAVEN HOSTEL</h5>
           <img src="{{ url('assets/img/img1.jpeg') }}" class="img-responsive" alt="img">
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <a href="/gallery" class="btn btn-info">View</a>
+                <a href="/gallery/haven" class="btn btn-info">View</a>
                 </div>
               </div>
             </div>
@@ -175,13 +175,13 @@
         </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-          <h5 class="text-center hostel-head">ARK HOSTEL</h5>
+          <h5 class="text-center hostel-head">BAKANA HOSTEL</h5>
           <img src="{{ url('assets/img/img1.jpeg') }}" class="img-responsive" alt="img">
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
               <div class="d-flex justify-content-between align-items-center">
                 <div class="btn-group">
-                <a href="/gallery" class="btn btn-info">View</a>
+                <a href="/gallery/bakana" class="btn btn-info">View</a>
                 </div>
               </div>
             </div>

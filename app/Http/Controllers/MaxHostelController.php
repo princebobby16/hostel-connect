@@ -14,7 +14,7 @@ class MaxHostelController extends Controller
     public function index()
     {
         $data = [
-            'hostel_name' => 'Max',
+            'hostel_name' => 'Max Hostel',
             'location' => 'West of Legon',
             'description' => '',
             'Facilities' => [

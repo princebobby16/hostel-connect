@@ -16,7 +16,10 @@ class ATestimonyHostelController extends Controller
         $data = [
             'hostel_name' => 'A Testimony Hostel',
             'location' => 'West of Legon',
-            'description' => '',
+            'description' => 'A Testimony Hostel 
+            has a per semester payment systemm with 
+            a quiet serene environment with all the 
+            utilities taken care of.',
             'Facilities' => [
                 'Fridge',
                 'Washing Machine',

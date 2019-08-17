@@ -16,7 +16,12 @@ class FosterHostelController extends Controller
         $data = [
             'hostel_name' => 'Foster Hostel',
             'location' => 'West of Legon',
-            'description' => '',
+            'description' => '
+            This hostel gives you the
+            feel at Home feeling coupled 
+            with cool prices with a per 
+            semester payment arrangement.
+            ',
             'Facilities' => [
                 'Communal Fridge',
                 'Communal Kitchen',

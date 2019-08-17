@@ -11,7 +11,7 @@
                 </div>
                 <div class="pull-right col-lg-6 text-center paddding">
                     <div class="container">
-                        <h1 class="display-4">Ark Hostel</h1>
+                        <h1 class="display-4">{{ $hostel_name }}</h1>
                         <div class="container">
                             <div class="table-responsive">
                                 <table class="table">
@@ -25,7 +25,7 @@
                                     </thead>
                                     <tbody>
                                         <tr>
-                                            <td>Product1</td>
+                                            <td>Product2</td>
                                             <td>23/11/2013</td>
                                             <td>Pending</td>
                                         </tr>
@@ -46,13 +46,13 @@
     <div class="row text-center">
         <div class="col-12">
             <h1>Welcome to
-                <!-- Do this dynamically --> <i><b>ark hostel</b></i> </h1>
+                <!-- Do this dynamically --> <i><b>{{ $hostel_name }}</b></i> </h1>
             <hr class="my-4">
         </div>
         <div class="col-12">
             <p class="lead">
                 <!-- Do this dynamically -->
-                Here are some of the images from the hostel
+                {{ $description }}
             </p>
         </div>
 
