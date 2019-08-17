@@ -13,7 +13,16 @@ class KHostelController extends Controller
      */
     public function index()
     {
-        $data = [];
+        $data = [
+            'hostel_name' => 'K ',
+            'location' => 'West of Legon',
+            'description' => '',
+            'Facilities' => [
+                'Shared Kitchen',
+                'Communal Fridge',
+                'Television Room'
+            ],
+        ];
         return view('gallery', $data);
     }
 

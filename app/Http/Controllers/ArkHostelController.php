@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class YellowHostelController extends Controller
+class ArkHostelController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,14 +14,16 @@ class YellowHostelController extends Controller
     public function index()
     {
         $data = [
-            'hostel_name' => 'Yellow Hostel',
-            'location' => 'East of Legon',
+            'hostel_name' => 'Ark Hostel',
+            'location' => 'West of Legon',
             'description' => '',
             'Facilities' => [
-                'Communal kitchen',
-                'Free Gas'
+                'Fridge',
+                'Washing Machine',
+                'Television'
             ],
         ];
+
         return view('gallery', $data);
     }
 

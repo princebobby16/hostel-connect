@@ -13,7 +13,16 @@ class FosterHostelController extends Controller
      */
     public function index()
     {
-        $data = [];
+        $data = [
+            'hostel_name' => 'Foster Hostel',
+            'location' => 'West of Legon',
+            'description' => '',
+            'Facilities' => [
+                'Communal Fridge',
+                'Communal Kitchen',
+                'Television'
+            ],
+        ];
         return view('gallery', $data);
     }
 

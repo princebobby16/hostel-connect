@@ -13,7 +13,16 @@ class ATestimonyHostelController extends Controller
      */
     public function index()
     {
-        $data = [];
+        $data = [
+            'hostel_name' => 'A Testimony Hostel',
+            'location' => 'West of Legon',
+            'description' => '',
+            'Facilities' => [
+                'Fridge',
+                'Washing Machine',
+                'Television'
+            ],
+        ];
         return view('gallery', $data);
     }
 

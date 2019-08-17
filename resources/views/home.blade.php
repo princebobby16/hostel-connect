@@ -20,7 +20,7 @@
       <div class="row">
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
-            <h5 class="text-center hostel-head">LINDA HOSTEL</h5>
+            <h5 class="text-center hostel-head">LINDA DOR HOSTEL</h5>
             <img src="{{ url('../assets/img/img1.jpeg') }}" class="img-responsive" alt="img">
             <div class="card-body">
               <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>

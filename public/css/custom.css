@@ -151,7 +151,7 @@ small{
 
 @media screen and (max-width: 768px) {
   
-  nav{
+  /* nav{
     position: relative;
   }
   
@@ -167,11 +167,11 @@ small{
 
   .navbar-toggler {
     display: none;
-  }
+  } */
 
-  .navbar-brand{
+  /* .navbar-brand{
     display: none;
-  }
+  } */
 }
 
 @media (max-width: 992px){

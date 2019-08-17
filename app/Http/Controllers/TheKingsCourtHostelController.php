@@ -13,7 +13,16 @@ class TheKingsCourtHostelController extends Controller
      */
     public function index()
     {
-        $data = [];
+        $data = [
+            'hostel_name' => 'KingsCourt Hostel',
+            'location' => 'West of Legon',
+            'description' => '',
+            'Facilities' => [
+                'Fridge',
+                'Bathtub',
+                'Television'
+            ],
+        ];
         return view('gallery', $data);
     }
 

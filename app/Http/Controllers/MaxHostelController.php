@@ -13,7 +13,15 @@ class MaxHostelController extends Controller
      */
     public function index()
     {
-        $data = [];
+        $data = [
+            'hostel_name' => 'Max',
+            'location' => 'West of Legon',
+            'description' => '',
+            'Facilities' => [
+                'Communal Kitchen',
+                'Free Wifi'
+            ],
+        ];
         return view('gallery', $data);
     }
 

@@ -13,7 +13,17 @@ class TheHavenHostelController extends Controller
      */
     public function index()
     {
-        $data = [];
+        $data = [
+            'hostel_name' => 'The Haven Hostel',
+            'location' => 'West of Legon',
+            'description' => '',
+            'Facilities' => [
+                'Free Gas',
+                'Rentable Fridge',
+                'Study Room',
+                'Television Room',
+            ],
+        ];
         return view('gallery', $data);
     }
 
