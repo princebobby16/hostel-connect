@@ -91,7 +91,7 @@ class FormController extends Controller
         ];
 
         $getResponse = $client->post(
-            'http://localhost:8080/send/sms', 
+            'http://localhost:8080/send/email', 
             [
                 'json' =>$requestObject,
                 'http_errors' => false
