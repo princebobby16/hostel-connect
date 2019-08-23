@@ -13,9 +13,27 @@ class TheKingsCourtHostelController extends Controller
      */
     public function index()
     {
-        
+        $img1 = [
+            'assets/img/hostelconnectimages/TheKingsCourtHostel/kings1.jpg',
+            'assets/img/hostelconnectimages/TheKingsCourtHostel/kings2.jpg',
+            'assets/img/hostelconnectimages/TheKingsCourtHostel/kings3.jpg',
+            'assets/img/hostelconnectimages/TheKingsCourtHostel/kings4.jpg',
+            'assets/img/hostelconnectimages/TheKingsCourtHostel/kings5.jpg',
+            'assets/img/hostelconnectimages/TheKingsCourtHostel/kings6.jpg',
+            'assets/img/hostelconnectimages/TheKingsCourtHostel/kings7.jpg',
+            'assets/img/hostelconnectimages/TheKingsCourtHostel/kings8.jpg',
+        ];
+
+        $facilities = [
+            'Fridge',
+            'Bathtub',
+            'Television'
+        ];
+
         $data = [
             'hostel_name' => 'KingsCourt Hostel',
+            'img' => 'assets/img/hostelconnectimages/TheKingsCourtHostel/kings.jpg',
+            'img1' => $img1,
             'location' => 'West of Legon',
             'description' => 'KingsCourt is 
             a top-notch Hostel with all 
@@ -24,11 +42,7 @@ class TheKingsCourtHostelController extends Controller
             It has a per semester payment model. 
             Water is free but students foot the 
             Light Bill.',
-            'Facilities' =>[
-                'Fridge',
-                'Bathtub',
-                'Television'
-            ],
+            'facilities' => $facilities,
         ];
         return view('gallery', $data);
     }

@@ -13,15 +13,44 @@ class ArkHostelController extends Controller
      */
     public function index()
     {
+        $img1 = [
+            'assets/img/hostelconnectimages/ArkHostel/ark1.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark2.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark3.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark4.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark5.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark6.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark7.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark8.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark9.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark10.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark11.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark12.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark13.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark14.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark15.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark16.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark17.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark18.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark19.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark20.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark21.jpg',
+            'assets/img/hostelconnectimages/ArkHostel/ark22.jpg',
+        ];
+        $facilities = [
+            'Communal Kitchen',
+        ];
         $data = [
             'hostel_name' => 'Ark Hostel',
+            'img' => 'assets/img/hostelconnectimages/ArkHostel/ark21.jpg',
+            'img1' => $img1,
             'location' => 'West of Legon',
-            'description' => '',
-            'Facilities' => [
-                'Fridge',
-                'Washing Machine',
-                'Television'
-            ],
+            'description' => '
+            Ark Hostel offers a Serene green environment
+            coupled with affordable prices and great facilities.
+            It has a per semester or yearly payment system, 
+            also electricity and water are footed by the hostel',
+            'facilities' => $facilities,
         ];
 
         return view('gallery', $data);

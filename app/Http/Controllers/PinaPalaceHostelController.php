@@ -13,15 +13,17 @@ class PinaPalaceHostelController extends Controller
      */
     public function index()
     {
+        $img1 = [];
+        $facilities = [
+            'No Extra facilities'
+        ];
         $data = [
             'hostel_name' => 'Pina Palace Hostel',
+            'img' => '',
+            'img1' => $img1,
             'location' => 'West of Legon',
             'description' => '',
-            'Facilities' => [
-                'Fridge',
-                'Washing Machine',
-                'Television'
-            ],
+            'facilities' => $facilities,
         ];
         return view('gallery', $data);
     }

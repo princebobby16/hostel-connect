@@ -13,21 +13,27 @@ class BakanaHostelController extends Controller
      */
     public function index()
     {
+        $img1 = [];
+
+        $facilities = [
+            'Fridge',
+            'Personal Kitchen',
+            'Television',
+            'Bathtub',
+            'Air Condition',
+        ];
+
         $data = [
             'hostel_name' => 'Bakana Hostel',
+            'img' => 'assets/img/hostelconnectimages/BankanaHostel/test.jpg',
+            'img1' => $img1,
             'location' => 'West of Legon',
             'description' => 'Bakana Hostel 
             is a top-notch Hostel offering 
             facilities that equate the price 
             with a per semester payment arrangement.
             Water is free but light bill is payed for.',
-            'Facilities' => [
-                'Fridge',
-                'Personal Kitchen',
-                'Television',
-                'Bathtub',
-                'Air Condition',
-            ],
+            'facilities' => $facilities,
         ];
 
         return view('gallery', $data);

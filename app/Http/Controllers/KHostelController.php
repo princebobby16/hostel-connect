@@ -13,18 +13,28 @@ class KHostelController extends Controller
      */
     public function index()
     {
+        $img1 = [
+            'assets/img/hostelconnectimages/KHostel/k1.jpg',
+            'assets/img/hostelconnectimages/KHostel/k2.jpg',
+            'assets/img/hostelconnectimages/KHostel/k3.jpg',
+            'assets/img/hostelconnectimages/KHostel/k4.jpg',
+            'assets/img/hostelconnectimages/KHostel/k5.jpg',
+        ];
+        $facilities = [
+            'Shared Kitchen',
+            'Communal Fridge',
+            'Television Room'
+        ];
         $data = [
             'hostel_name' => 'K Hostel',
+            'img' => 'assets/img/hostelconnectimages/KHostel/k.jpg',
+            'img1' => $img1,
             'location' => 'West of Legon',
             'description' => 'K Hostel situates at 
             an exclusive area with an appartment 
             structure and is open to per semester 
-            or yearly payment arrangement',
-            'Facilities' => [
-                'Shared Kitchen',
-                'Communal Fridge',
-                'Television Room'
-            ],
+            or yearly payment arrangement.',
+            'facilities' => $facilities,
         ];
         return view('gallery', $data);
     }

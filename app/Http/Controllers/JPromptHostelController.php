@@ -13,7 +13,31 @@ class JPromptHostelController extends Controller
      */
     public function index()
     {
-        $data = [];
+        $img1 = [
+            'assets/img/hostelconnectimages/JPromptHostel/jp.jpg',
+            'assets/img/hostelconnectimages/JPromptHostel/jp1.jpg',
+            'assets/img/hostelconnectimages/JPromptHostel/jp2.jpg',
+            'assets/img/hostelconnectimages/JPromptHostel/jp3.jpg',
+            'assets/img/hostelconnectimages/JPromptHostel/jp4.jpg',
+            'assets/img/hostelconnectimages/JPromptHostel/jp5.jpg',
+        ];
+        $facilities = [
+            'No extra facilities',
+        ];
+        $data = [
+            'hostel_name' => 'J Prompt Hostel',
+            'img' => 'assets/img/hostelconnectimages/JPromptHostel/jp.jpg',
+            'img1' => $img1,
+            'location' => 'Kokomlemle',
+            'description' => 'Beauty of the 
+            structure plus its affordability 
+            are one strong features of J 
+            Prompt Hostel. It has a per semester 
+            payment arrangement, also all 
+            utilities are factored into the price.',
+            'facilities' => $facilities,
+        ];
+
         return view('gallery', $data);
     }
 

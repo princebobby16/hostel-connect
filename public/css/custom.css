@@ -3,6 +3,10 @@
   margin: 0;
 }
 
+li{
+  list-style: none;
+}
+
 .form{
     max-width: 500px;
     margin: 100px auto;

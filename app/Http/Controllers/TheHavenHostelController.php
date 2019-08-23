@@ -13,21 +13,26 @@ class TheHavenHostelController extends Controller
      */
     public function index()
     {
+        $img1 = [];
         
+        $facilities =  [
+            'Free Gas',
+            'Rentable Fridge',
+            'Study Room',
+            'Television Room',
+        ];
+
         $data = [
             'hostel_name' => 'The Haven Hostel',
+            'img' => '',
+            'img1' => $img1,
             'location' => 'West of Legon',
             'description' => '
             This Hostel has a per 
             semester payment arrangement 
             with close proximity to GIMPA and 
             University of Ghana campuses',
-            'Facilities' => [
-                'Free Gas',
-                'Rentable Fridge',
-                'Study Room',
-                'Television Room',
-            ],
+            'facilities' => $facilities,
         ];
         return view('gallery', $data);
     }

@@ -13,8 +13,21 @@ class MaxHostelController extends Controller
      */
     public function index()
     {
+        $img1 = [
+            'assets/img/hostelconnectimages/MaxHostel/max1.jpg',
+            'assets/img/hostelconnectimages/MaxHostel/max2.jpg',
+            'assets/img/hostelconnectimages/MaxHostel/max3.jpg',
+            'assets/img/hostelconnectimages/MaxHostel/max4.jpg',
+            'assets/img/hostelconnectimages/MaxHostel/max5.jpg',
+        ];
+        $facilities = [
+            'Communal Kitchen',
+            'Free Wifi'
+        ];
         $data = [
             'hostel_name' => 'Max Hostel',
+            'img' => 'assets/img/hostelconnectimages/MaxHostel/max.jpg',
+            'img1' => $img1,
             'location' => 'West of Legon',
             'description' => 'Max Hostel 
             has a per semester or yearly 
@@ -22,10 +35,7 @@ class MaxHostelController extends Controller
             a busy route and very affordable.
             Water is free but Students pay 
             for the light bill.',
-            'Facilities' => [
-                'Communal Kitchen',
-                'Free Wifi'
-            ],
+            'facilities' => $facilities,
         ];
         return view('gallery', $data);
     }

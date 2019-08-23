@@ -7,7 +7,7 @@
         <div class="container">
             <div class="row clear-fix">
                 <div class="pull-left col-lg-6 padding">
-                    <img src="{{ url('assets/img/img1.jpeg') }}" class="img-responsive img-fluid" alt="Hostel Image">
+                    <img src="{{ url($img) }}" height="100%" width="100%" class="img-responsive img-fluid" alt="Hostel Image">
                 </div>
                 <div class="pull-right col-lg-6 text-center paddding">
                     <div class="container">
@@ -26,11 +26,11 @@
                                     <tbody>
                                         <tr>
                                             <td>Facilities</td>
-                                            <td><ul>
-                                                @foreach($Facilities as $item)
-                                                <li>$item</li>
+                                            <td>
+                                                @foreach($facilities as $facility)
+                                                <li>{{ $facility }}</li>
                                                 @endforeach
-                                            </ul></td>
+                                            </td>
                                             <td>{{ $location }}</td>
                                         </tr>
                                     </tbody>
@@ -68,38 +68,16 @@
 <div class="album py-5 bg-light">
     <div class="container padding">
         <div class="row">
+            @foreach($img1 as $imgs)
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <img src="{{ url('assets/img/img1.jpeg') }}" alt="" class="card-img-top">
+                    <img src="{{ url($imgs) }}" alt="" class="card-img-top">
                     <div class="card-body">
-                        <div class="card-text">Backyard</div>
+                        <div class="card-text">Some part of the hostel</div>
                     </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                    <img src="{{ url('assets/img/img1.jpeg') }}" alt="" class="card-img-top">
-                    <div class="card-body">
-                        <div class="card-text">Backyard</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                    <img src="{{ url('assets/img/img1.jpeg') }}" alt="" class="card-img-top">
-                    <div class="card-body">
-                        <div class="card-text">Backyard</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="card mb-4 shadow-sm">
-                    <img src="{{ url('assets/img/img1.jpeg') }}" alt="" class="card-img-top">
-                    <div class="card-body">
-                        <div class="card-text">Backyard</div>
-                    </div>
-                </div>
-            </div>
+            @endforeach
         </div>
 
         <hr class="my-4">

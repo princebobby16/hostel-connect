@@ -13,8 +13,19 @@ class FosterHostelController extends Controller
      */
     public function index()
     {
+
+        $img1 = [];
+        
+        $facilities = [
+            'Communal Fridge',
+            'Communal Kitchen',
+            'Television'
+        ];
+
         $data = [
             'hostel_name' => 'Foster Hostel',
+            'img' => 'assets/img/hostelconnectimages/ATestimonyHostel/test.jpg',
+            'img1' => $img1,
             'location' => 'West of Legon',
             'description' => '
             This hostel gives you the
@@ -22,11 +33,7 @@ class FosterHostelController extends Controller
             with cool prices with a per 
             semester payment arrangement.
             ',
-            'Facilities' => [
-                'Communal Fridge',
-                'Communal Kitchen',
-                'Television'
-            ],
+            'facilities' => $facilities,
         ];
         return view('gallery', $data);
     }

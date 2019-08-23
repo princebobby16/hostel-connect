@@ -74,7 +74,7 @@
                     <div class="footer-text">
                         <h6>&copy;copyright | Hostel Connect Ltd 2019 | All rights Reserved</h6>
                         <h6>New to HC? <a href="/about">Visit our About page</a> or read our <a href="/terms-of-service">Terms of Service</a></h6>
-                        <h6>or Learn more about our<a href="/privacy-policy">Privacy Policy</a></h6>
+                        <h6>or Learn more about our<a href="/privacy-policy"> Privacy Policy</a></h6>
                     </div>
                 </div>
             </div>
