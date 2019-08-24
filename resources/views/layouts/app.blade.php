@@ -15,39 +15,33 @@
 </head>
 
 <body>
-    <nav class="navi navbar navbar-nav navbar-dark bg-dark navbar-dropdown align-items-center navbar-toggleable-sm navbar-expand-md sticky-top" role="navigation" id="myTopnav">
-        <div class="container-fluid nav-container">
-            <a class="navbar-brand" href="#">
-                <img src="{{ url('../assets/img/logo.jpg') }}" alt="logo" width="40px" height="30px">
-            </a>
-            <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#fall">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse nav-links " id="fall">
-                <ul class="nav navbar-nav ml-auto">
-                    <li> <a href="/contact" class="nav-link">Contact Us</a> </li>
-                    <li> <a href="/about" class="nav-link">About</a> </li>
-                    <li> <a href="/register" class="nav-link">Register</a> </li>
-                    <li class="active"> <a href="/" class="nav-link">Home</a> </li>
-                </ul>
-            </div>
+    
+
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+
+        <a href="." class="navbar-brand">
+            <img src="{{ url('../assets/img/logo.jpg') }}" alt="logo" width="40px" height="30px">
+        </a>
+
+        <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#collapse_target">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="collapse_target">
+
+            <!-- <span class="navbar-text">
+            Hostel Connect
+        </span> -->
+
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="/register" class="nav-link">Register</a></li>
+                <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
+                <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
+            </ul>
         </div>
     </nav>
-<!-- 
-    <nav>
-        <div class="hamburger">
-            <div class="line"></div>
-            <div class="line"></div>
-            <div class="line"></div>
-        </div>
 
-        <ul class="nav-links">
-            <li> <a href="/contact">Contact Us</a> </li>
-            <li> <a href="/about" >About</a> </li>
-            <li> <a href="/register">Register</a> </li>
-            <li class="active"> <a href="/">Home</a> </li>
-        </ul>
-    </nav> -->
 
     <div class="container">
         @if(count($errors) > 0)
