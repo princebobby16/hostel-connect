@@ -60,7 +60,7 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="{{ url('assets/img/img1.jpeg') }}" alt="" class="card-img-top">
                     <div class="card-body">
-                        <h4 class="card-title">Rolland Torwoe</h4>
+                        <!-- <h4 class="card-title">Rolland Torwoe</h4> -->
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                 <div class="card  mb-4 shadow-sm">
                     <img src="{{ url('assets/img/img1.jpeg') }}" alt="" class="card-img-top">
                     <div class="card-body">
-                        <h4 class="card-title">Rolland Torwoe</h4>
+                        <!-- <h4 class="card-title">Rolland Torwoe</h4> -->
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                 </div>
@@ -78,7 +78,7 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="{{ url('assets/img/img1.jpeg') }}" alt="" class="card-img-top">
                     <div class="card-body">
-                        <h4 class="card-title">Rolland Torwoe</h4>
+                        <!-- <h4 class="card-title">Rolland Torwoe</h4> -->
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                 </div>
@@ -87,7 +87,7 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="{{ url('assets/img/img1.jpeg') }}" alt="" class="card-img-top">
                     <div class="card-body">
-                        <h4 class="card-title">Rolland Torwoe</h4>
+                        <!-- <h4 class="card-title">Rolland Torwoe</h4> -->
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                 </div>
@@ -96,7 +96,7 @@
                 <div class="card">
                     <img src="{{ url('assets/img/img1.jpeg') }}" alt="" class="card-img-top">
                     <div class="card-body">
-                        <h4 class="card-title">Rolland Torwoe</h4>
+                        <!-- <h4 class="card-title">Rolland Torwoe</h4> -->
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                 </div>

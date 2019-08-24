@@ -31,25 +31,25 @@
   <div class="my-3 p-3 bg-white rounded shadow-sm">
     <h6 class="border-bottom border-gray pb-2 mb-0">Social Media</h6>
     <div class="media text-muted pt-3">
-      <div class="social"><a href="#"><i class="fab fa-facebook"></a></div>
+      <img src="{{ url('assets/img/fb1.png') }}"height="40px" width="50px" alt="facebook image">
       <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
         <div class="d-flex justify-content-between align-items-center w-100">
           <strong class="text-gray-dark">Go to our Facebook Page</strong>
-          <a href="#">Follow</a>
+          <a href="#" class="ml-auto">Follow</a>
         </div>
       </div>
     </div>
     <div class="media text-muted pt-3">
-      <div class="social"><a href="#"><i class="fab fa-twitter"></a></div>
+      <img src="{{ url('assets/img/twitter2.png') }}" height="40px" width="50px"  alt="twitter image">
       <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
         <div class="d-flex justify-content-between align-items-center w-100">
           <strong class="text-gray-dark">Check us out on Twitter</strong>
-          <a href="#">Follow</a>
+          <a href="#" class="ml-auto">Follow</a>
         </div>
       </div>
     </div>
     <div class="media text-muted pt-3">
-      <div class="social"><a href="#"><i class="fab fa-instagram"></a></div>
+      <img src="{{ url('assets/img/instagram.jpeg') }}" height="40px" width="50px" alt="facebook image">
       <div class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray">
         <div class="d-flex justify-content-between align-items-center w-100">
           <strong class="text-gray-dark">Don't forget Instagram</strong>

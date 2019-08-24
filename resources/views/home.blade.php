@@ -172,7 +172,7 @@
             </div>
           </div>
         </div>
-        <!-- <div class="col-md-4">
+        <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
           <h5 class="text-center hostel-head">FOSTER HOSTEL</h5>
           <img src="{{ url('assets/img/img2.jpeg') }}" height="200px" class="img-responsive" alt="img">
@@ -188,7 +188,7 @@
               </div>
             </div>
           </div>
-        </div> -->
+        </div>
         <div class="col-md-4">
           <div class="card mb-4 shadow-sm">
           <h5 class="text-center hostel-head">THE HAVEN HOSTEL</h5>
