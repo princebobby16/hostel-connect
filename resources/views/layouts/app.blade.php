@@ -33,8 +33,8 @@
         <div class="nav-links ml-auto">
             <a href="/">Home</a>
             <a href="/register">Register</a>
-            <a href="/about">Contact</a>
-            <a href="/contact">About</a>
+            <a href="/contact">Contact</a>
+            <a href="/about">About</a>
         </div>
     </div>
 
