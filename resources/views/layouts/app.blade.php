@@ -15,32 +15,28 @@
 </head>
 
 <body>
-    
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
-
-        <a href="." class="navbar-brand">
-            <img src="{{ url('../assets/img/logo.jpg') }}" alt="logo" width="40px" height="30px">
-        </a>
-
-        <button class="navbar-toggler navbar-toggler-right" data-toggle="collapse" data-target="#collapse_target">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="collapse_target">
-
-            <!-- <span class="navbar-text">
-            Hostel Connect
-        </span> -->
-
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
-                <li class="nav-item"><a href="/register" class="nav-link">Register</a></li>
-                <li class="nav-item"><a href="/about" class="nav-link">About</a></li>
-                <li class="nav-item"><a href="/contact" class="nav-link">Contact</a></li>
-            </ul>
+    <div class="nav">
+        <div class="nav-header">
+            <div class="nav-title">
+                <img src="{{ url('../assets/img/logo.jpg') }}" alt="logo" width="40px" height="30px">
+            </div>
         </div>
-    </nav>
+        <div class="nav-btn">
+            <label for="nav-check">
+                <span></span>
+                <span></span>
+                <span></span>
+            </label>
+        </div>
+        <input type="checkbox" id="nav-check">
+        <div class="nav-links ml-auto">
+            <a href="/">Home</a>
+            <a href="/register">Register</a>
+            <a href="/about">Contact</a>
+            <a href="/contact">About</a>
+        </div>
+    </div>
 
 
     <div class="container">
