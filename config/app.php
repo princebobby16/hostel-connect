@@ -52,7 +52,7 @@ return [
     |
     */
 
-    'url' => env('APP_URL', 'https://stark-coast-34703.herokuapp.com/'),
+    'url' => env('APP_URL', 'https://stark-coast-34703.herokuapp.com'),
 
     'asset_url' => env('ASSET_URL', null),
 
