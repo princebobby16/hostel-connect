@@ -58,8 +58,6 @@ class FormController extends Controller
         $select = "";
         if ($request->input('select') == 'L') {
             $select = "University of Ghana";
-        }elseif ($request->input('select') == 'K') {
-            $select = "KNUST";            
         }elseif ($request->input('select') == 'U') {
             $select = "UPSA";
         }elseif ($request->input('select') == 'G') {

@@ -48,7 +48,7 @@
         <div class="form-group">
             {!! Form::label('select', 'Select School', ['class' => 'col-lg-10 control-label'] ) !!}
             <div class="col-lg-10">
-                {!! Form::select('select', ['K' => 'KNUST', 'L' => 'University of Ghana', 'G' => 'Gimpa', 'U' => 'UPS'], 'S', ['class' => 'form-control' ]) !!}
+                {!! Form::select('select', ['L' => 'University of Ghana', 'G' => 'Gimpa', 'U' => 'UPS'], 'S', ['class' => 'form-control' ]) !!}
             </div>
         </div>
 
