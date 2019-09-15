@@ -11,32 +11,28 @@
     <link rel="stylesheet" href="/css/app.css">
     <link rel="icon" type="image/jpg" href="/assets/img/logo.jpg" />
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <script type="text/javascript" src="/js/app.js"></script>
     <title>Hostel Connect @yield('title')</title>
 </head>
 
 <body>
 
-    <div class="nav">
-        <div class="nav-header">
-            <div class="nav-title">
-                <img src="{{ url('../assets/img/logo.jpg') }}" alt="logo" width="40px" height="30px">
-            </div>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+        <div class="navbar-header">
+            <a href="#" class="navbar-brand"><img width="40px" height="30px" src="{{ url('../assets/img/logo.jpg') }}" alt=""></a>
         </div>
-        <div class="nav-btn">
-            <label for="nav-check">
-                <span></span>
-                <span></span>
-                <span></span>
-            </label>
+        <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#Menu">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="Menu">
+            <ul class="nav navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/register">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+            </ul>
         </div>
-        <input type="checkbox" id="nav-check">
-        <div class="nav-links ml-auto">
-            <a href="/">Home</a>
-            <a href="/register">Register</a>
-            <a href="/contact">Contact</a>
-            <a href="/about">About</a>
-        </div>
-    </div>
+    </nav>
 
 
     <div class="container">
