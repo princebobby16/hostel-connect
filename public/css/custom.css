@@ -111,9 +111,16 @@ small{
   color: white;
 }
 
-.footer-area{
-  background: #333;
+hr.light{
+  border-top: 1px solid #cccbcb;
+  width: 75%;
+  margin-top: .8rem;
+  margin-bottom: 1rem;
 }
+
+/* .footer-area{
+  background: #333;
+} */
 
 .text-style{
   color: rgb(250, 245, 245);

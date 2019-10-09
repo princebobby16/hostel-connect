@@ -54,8 +54,8 @@
         @endif
     </div>
     @yield('content')
-    <footer class="footer-area section-padding">
-        <div class="container-fluid padding">
+    <footer class="navbar-dark bg-dark section-padding">
+        <div class="container footer-text padding">
             <div class="row text-center">
                 <div class="col-md-4">
                     <h1>Logo</h1>
@@ -81,14 +81,9 @@
                     <p>City, State, 00233</p>
                     <p>City, State, 00233</p>
                 </div>
-                <div class="col-12">
-                    <hr class="light-100">
-                    <h5>&copy;copyright | New School Academy 2019 | All rights Reserved</h5>
-                    <h5>New to New School? <a href="/about">Visit our About page</a> or read our <a href="/terms-of-service">Terms of Service</a></h5>
-                    <h5>or Learn more about our<a href="/privacy-policy"> Privacy Policy</a></h5>
-                </div>
             </div>
         </div>
+        <hr class="light">
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
