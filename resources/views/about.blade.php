@@ -5,7 +5,7 @@
     <br>
     <div class="contact-header">
         <div class="welcome text-center padding">
-            <h1 class="display-4">About Hostel Connect</h1>
+            <h1 class="display-4"> <i class="fa fa-address-book-o"></i> About Hostel Connect</h1>
             <hr class="light">
         </div>
         <p class="lead text-center">This is just a simple contact page to show you how things work</p>
@@ -13,7 +13,7 @@
             <div class="row padding">
                 <div class="md-12 col-md-6">
                     <p class="lead text-center">
-                        <a href=".">
+                        <a class="nav-link nav-item" href="/privacy-policy">
                             <i class="fa fa-phone"></i>
                             Our Policy
                         </a>
@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-md-6">
                     <p class="lead text-center">
-                        <a href=".">
+                        <a class="nav-link nav-item" href="/privacy-policy">
                             <i class="fa fa-envelope-open"></i>
                             Our Values
                         </a>

@@ -13,7 +13,7 @@
             <div class="row padding">
                 <div class="md-12 col-md-6">
                     <p class="lead text-center">
-                        <a href="tel:+233249622403">
+                        <a class="nav-link nav-item" href="tel:+233249622403">
                             <i class="fa fa-phone"></i>
                             +233 249622403
                         </a>
@@ -21,7 +21,7 @@
                 </div>
                 <div class="col-md-6">
                     <p class="lead text-center">
-                        <a href="mailto:pbobby001@st.ug.edu.gh">
+                        <a class="nav-link nav-item" href="mailto:pbobby001@st.ug.edu.gh">
                             <i class="fa fa-envelope-open"></i>
                             Email Us
                         </a>

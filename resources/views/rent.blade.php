@@ -7,7 +7,7 @@
     <br>
     <div class="contact-header">
         <div class="welcome text-center padding">
-            <h1 class="display-4">Rent an Apartmet</h1>
+            <h1 class="display-4"> <i class="fa fa-home"></i> Rent</h1>
             <hr class="light">
         </div>
         <p class="lead text-center ">This is just a simple contact page to show you how things work</p>
@@ -15,7 +15,7 @@
             <div class="row padding">
                 <div class="md-12 col-md-6">
                     <p class="lead text-center">
-                        <a href="/privacy-policy">
+                        <a class="nav-link nav-item" href="/privacy-policy">
                             <i class="fa fa-phone"></i>
                             Our Policy
                         </a>
@@ -23,7 +23,7 @@
                 </div>
                 <div class="col-md-6">
                     <p class="lead text-center">
-                        <a href="/privacy-policy">
+                        <a class="nav-link nav-item" href="/privacy-policy">
                             <i class="fa fa-envelope-open"></i>
                             Our Values
                         </a>
@@ -40,8 +40,8 @@
         <div class="row">
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <h5 class="text-center hostel-head">LINDA DOR HOSTEL</h5>
-                    <img src="{{ url('../assets/img/hostelconnectimages/LindaDorHostel/linda.jpg') }}" height="200px" class="img-responsive" alt="img">
+                    <!-- <h5 class="text-center hostel-head">LINDA DOR HOSTEL</h5> -->
+                    <!-- <img src="{{ url('../assets/img/hostelconnectimages/LindaDorHostel/linda.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
                     <div class="card-body">
                         <p class="card-text">This Hostel has a per semester model. With its location and great facilities.
                             Linda Dor should be a bargain</p>
@@ -55,8 +55,8 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <h5 class="text-center hostel-head">J. PROMPT HOSTEL</h5>
-                    <img src="{{ url('assets/img/hostelconnectimages/JPromptHostel/jp.jpg') }}" height="200px" class="img-responsive" alt="img">
+                    <!-- <h5 class="text-center hostel-head">J. PROMPT HOSTEL</h5>
+                    <img src="{{ url('assets/img/hostelconnectimages/JPromptHostel/jp.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
                     <div class="card-body">
                         <p class="card-text">Beauty of the
                             structure plus its affordability
@@ -74,8 +74,8 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <h5 class="text-center hostel-head">THE KINGS COURT HOSTEL</h5>
-                    <img src="{{ url('assets/img/hostelconnectimages/TheKingsCourtHostel/kings.jpg') }}" height="200px" class="img-responsive" alt="img">
+                    <!-- <h5 class="text-center hostel-head">THE KINGS COURT HOSTEL</h5>
+                    <img src="{{ url('assets/img/hostelconnectimages/TheKingsCourtHostel/kings.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
                     <div class="card-body">
                         <p class="card-text">KingsCourt is
                             a top-notch Hostel with all
@@ -92,8 +92,8 @@
 
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <h5 class="text-center hostel-head">A TESTIMONY HOSTEL</h5>
-                    <img src="{{ url('assets/img/hostelconnectimages/ATestimonyHostel/test7.jpg') }}" height="200px" class="img-responsive" alt="img">
+                    <!-- <h5 class="text-center hostel-head">A TESTIMONY HOSTEL</h5>
+                    <img src="{{ url('assets/img/hostelconnectimages/ATestimonyHostel/test7.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
                     <div class="card-body">
                         <p class="card-text">A Testimony Hostel
                             has a per semester payment systemm with
@@ -109,8 +109,8 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <h5 class="text-center hostel-head">ARK HOSTEL</h5>
-                    <img src="{{ url('assets/img/hostelconnectimages/ArkHostel/ark21.jpg') }}" height="200px" class="img-responsive" alt="img">
+                    <!-- <h5 class="text-center hostel-head">ARK HOSTEL</h5>
+                    <img src="{{ url('assets/img/hostelconnectimages/ArkHostel/ark21.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
                     <div class="card-body">
                         <p class="card-text">Ark Hostel offers a Serene green environment
                             coupled with affordable prices and great facilities.
@@ -126,8 +126,8 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <h5 class="text-center hostel-head">MAX HOSTEL</h5>
-                    <img src="{{ url('assets/img/hostelconnectimages/MaxHostel/max1.jpg') }}" height="200px" class="img-responsive" alt="img">
+                    <!-- <h5 class="text-center hostel-head">MAX HOSTEL</h5>
+                    <img src="{{ url('assets/img/hostelconnectimages/MaxHostel/max1.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
                     <div class="card-body">
                         <p class="card-text">Max Hostel
                             has a per semester or yearly

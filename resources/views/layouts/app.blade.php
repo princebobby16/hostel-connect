@@ -11,7 +11,7 @@
     <link rel="stylesheet" href="/css/app.css">
     <link id="" rel="icon" type="image/jpg" href="/assets/img/mylogo.png" />
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
-    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/font-awesome.css') }}">
     <script type="text/javascript" src="/js/app.js"></script>
     <title>Hostel Connect @yield('title')</title>
 </head>
@@ -28,10 +28,10 @@
         <div class="collapse navbar-collapse" id="Menu">
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="/home">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="/register">Register</a></li>
-                <li class="nav-item"><a class="nav-link" href="/rent">Rent</a></li>
-                <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
+                <li class="nav-item"><a class="nav-link" href="/register"> <i class="fa fa-pencil"></i> Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="/rent"> <i class="fa fa-home"></i> Rent</a></li>
+                <li class="nav-item"><a class="nav-link" href="/about"> <i class="fa fa-user"></i> About</a></li>
+                <li class="nav-item"><a class="nav-link" href="/contact"> <i class="fa fa-phone"></i> Contact Us</a></li>
             </ul>
         </div>
     </nav>
@@ -59,25 +59,25 @@
         <div class="container footer-text padding">
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="{{ url('../assets/img/logo2.png') }}" width="100" height="100" alt="..." class="img-responsive">
+                    <img src="{{ url('../assets/img/mylogo.png') }}" width="100" height="100" alt="..." class="img-responsive">
                     <hr class="light">
-                    <p>555-555-5555</p>
-                    <p>email@email.com</p>
-                    <p>GW-9060-2789</p>
-                    <p>Accra, Ghana</p>
+                    <p> <i class="fa fa-phone"></i> 054-537-1541</p>
+                    <p> <i class="fa fa-envelope"></i> hostelconnect00@gmail.com</p>
+                    <!-- <p>GW-9060-2789</p> -->
+                    <p> <i class="fa fa-location-arrow"></i> Accra, Ghana</p>
                 </div>
                 <div class="col-md-4">
                     <hr class="light">
                     <h5>Our Working Hours</h5>
                     <hr class="light">
-                    <p>Monday -- Sunday</p>
+                    <p> <i class="fa fa-calendar-times-o"></i> Monday -- Sunday</p>
                     <p>24/7</p>
                 </div>
                 <div class="col-md-4">
                     <hr class="light">
                     <h5>Service Area</h5>
                     <hr class="light">
-                    <p>Accra, Ghana, 00233</p>
+                    <p> <i class="fa fa-location-arrow"></i> Accra, Ghana, 00233</p>
                 </div>
             </div>
         </div>
