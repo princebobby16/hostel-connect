@@ -9,7 +9,7 @@
                                 user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/app.css">
-    <link id="" rel="icon" type="image/jpg" href="/assets/img/logo.jpg" />
+    <link id="" rel="icon" type="image/jpg" href="/assets/img/logo2.png" />
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
     <script type="text/javascript" src="/js/app.js"></script>
     <title>Hostel Connect @yield('title')</title>
@@ -17,9 +17,9 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-info sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark default-color text-white sticky-top">
         <div class="navbar-header">
-            <a href="#" class="navbar-brand"><img width="40px" height="30px" src="{{ url('../assets/img/logo.jpg') }}" alt=""></a>
+            <a href="#" class="navbar-brand"><img width="40px" height="30px" src="{{ url('../assets/img/logo2.png') }}" alt=""></a>
         </div>
         <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#Menu">
             <span class="navbar-toggler-icon"></span>
@@ -54,11 +54,11 @@
         @endif
     </div>
     @yield('content')
-    <footer class="navbar-dark bg-info section-padding">
+    <footer class="navbar-dark default-color section-padding">
         <div class="container footer-text padding">
             <div class="row text-center">
                 <div class="col-md-4">
-                    <h1>Logo</h1>
+                    <img src="url('../assets/img/logo2.png')" alt="..." class="img-responsive">
                     <hr class="light">
                     <p>555-555-5555</p>
                     <p>email@email.com</p>

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container-fluid padding contact-banner bg-info">
+<div class="container-fluid padding contact-banner default-color">
     <br>
     <div class="contact-header">
         <div class="welcome text-center padding">
@@ -49,15 +49,29 @@
                 campus accommodation needs.
             </p>
 
-            <div class="row">
+            <div class="row padding">
                 <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <h2 class="card-title about-header">Our Mission</h2>
+                        <div class="card-body">
+                            <div class="card-text">
+                                <ul>
+                                    <li>Making your transition from home to your hostel hassle free</li>
+                                    <li>Providing comprehensive data on potential hostels</li>
+                                    <li>Providing more than 50+ hostels</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- <div class="col-md-4">
                     <h2 class="about-header">Our Mission</h2>
                     <ul>
                         <li>Making your transition from home to your hostel hassle free</li>
                         <li>Providing comprehensive data on potential hostels</li>
                         <li>Providing more than 50+ hostels</li>
                     </ul>
-                </div>
+                </div> -->
                 <div class="col-md-4">
                     <h2 class="about-header">Our Vision</h2>
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
@@ -71,15 +85,14 @@
             </div>
 
         </div>
-        <hr>
-
+        <hr class="light-100">
     </div>
 
     <div class="container">
         <div class="row welcome text-center">
             <div class="col-12">
                 <h1 class="display-4">Meet the Team</h1>
-                <hr>
+                <hr class="light-100">
             </div>
 
         </div>
@@ -137,7 +150,7 @@
 
     <div class="container-fluid padding">
         <h1 class="text-center display-4">Where are we? ...</h1>
-        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.431350230762!2d-0.19841844993827387!3d5.650567334242808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9c7ebaeabe93%3A0xd78257e67498c1a0!2sUniversity%20of%20Ghana%2C%20Legon!5e0!3m2!1sen!2sgh!4v1570620237297!5m2!1sen!2sgh" width="1000" height="500" frameborder="0" allowfullscreen=""></iframe>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.431350230762!2d-0.19841844993827387!3d5.650567334242808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9c7ebaeabe93%3A0xd78257e67498c1a0!2sUniversity%20of%20Ghana%2C%20Legon!5e0!3m2!1sen!2sgh!4v1570620237297!5m2!1sen!2sgh" width="1070" height="500" frameborder="0" allowfullscreen=""></iframe>
     </div>
 
 </div>

@@ -1,7 +1,7 @@
 @extends('layouts.app')
 @section('content')
 
-<div class="container-fluid padding contact-banner bg-info">
+<div class="container-fluid padding contact-banner default-color">
     <br>
     <div class="contact-header">
         <div class="welcome text-center padding">
