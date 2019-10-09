@@ -64,6 +64,32 @@
                         </div>
                     </div>
                 </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <h2 class="card-title about-header">Our Vision</h2>
+                        <div class="card-body">
+                            <div class="card-text">
+                                Donec id elit non mi porta gravida at eget metus. Fusce dapibus,
+                                tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam
+                                porta sem malesuada magna mollis euismod. Donec sed odio dui.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card mb-4 shadow-sm">
+                        <h2 class="card-title about-header">Our Values</h2>
+                        <div class="card-body">
+                            <div class="card-text">
+                                Donec sed odio dui. Cras justo odio, dapibus ac facilisis in,
+                                egestas eget quam. Vestibulum id ligula porta felis euismod semper.
+                                Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh,
+                                ut fermentum massa justo sit amet risus.
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <!-- <div class="col-md-4">
                     <h2 class="about-header">Our Mission</h2>
                     <ul>
@@ -72,16 +98,16 @@
                         <li>Providing more than 50+ hostels</li>
                     </ul>
                 </div> -->
-                <div class="col-md-4">
+                <!-- <div class="col-md-4">
                     <h2 class="about-header">Our Vision</h2>
                     <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
 
-                </div>
-                <div class="col-md-4">
+                </div> -->
+                <!-- <div class="col-md-4">
                     <h2 class="about-header">Our Values</h2>
                     <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 
-                </div>
+                </div> -->
             </div>
 
         </div>

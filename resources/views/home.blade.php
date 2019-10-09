@@ -21,15 +21,14 @@
     <div class="carousel-item"><img src="{{ url('../assets/img/hostelconnectimages/ATestimonyHostel/test11.jpg') }}" alt="image3"></div>
   </div>
 
-  <!-- <a href="#slides" class="left carousel-control" role="button" data-slide="prev">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Previously</span>
-    </a> -->
-
-  <!-- <a href="#slides" class="right carousel-control" role="button" data-slide="next">
-        <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-        <span class="sr-only">Next</span>
-    </a> -->
+  <a class="carousel-control-prev" href="#slides" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#slides" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
 </div>
 
 

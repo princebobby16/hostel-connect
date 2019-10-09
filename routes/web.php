@@ -11,7 +11,12 @@
 |
 */
 
-Route::get('/', 'HomeController@index');
+Route::get('/', function () {
+    return view('welcome');
+});
+
+Route::get('/home', 'HomeController@index');
+
 
 Route::get('/register', 'FormController@create')->name('form.create');
 Route::post('/register/submit', 'FormController@store')->name('form.store');

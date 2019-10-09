@@ -3,6 +3,21 @@
   margin: 0;
 }
 
+/* .welcome-page{
+  background-image: url('../assets/img/pic1.jpg');
+  background-repeat: no-repeat;
+} */
+
+.info-shadow{
+  max-width: 500px;
+  margin: 100px auto;
+  padding: 5vw;
+  padding-right: 10px;
+  background-color: rgb(244, 243, 245);
+  border-radius: 16px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
 .contact-banner {
   width: 100%;
   height: 300px;
@@ -102,7 +117,7 @@ iframe {
 }
 
 iframe.map {
-  border: 5px solid rgb(43, 85, 90);
+  border: 2px solid rgb(43, 85, 90);
   border-radius: 10px;
 }
 

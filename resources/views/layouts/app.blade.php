@@ -9,8 +9,9 @@
                                 user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/app.css">
-    <link id="" rel="icon" type="image/jpg" href="/assets/img/logo2.png" />
+    <link id="" rel="icon" type="image/jpg" href="/assets/img/mylogo.png" />
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
+    <link rel="stylesheet" href="{{ asset('css/font-awesome.min.css') }}">
     <script type="text/javascript" src="/js/app.js"></script>
     <title>Hostel Connect @yield('title')</title>
 </head>
@@ -19,16 +20,16 @@
 
     <nav class="navbar navbar-expand-md navbar-dark default-color text-white sticky-top">
         <div class="navbar-header">
-            <a href="#" class="navbar-brand"><img width="40px" height="30px" src="{{ url('../assets/img/logo2.png') }}" alt=""></a>
+            <a href="#" class="navbar-brand"><img width="40px" height="30px" src="{{ url('../assets/img/mylogo.png') }}" alt=""></a>
         </div>
         <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#Menu">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="Menu">
             <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/register">Register</a></li>
-                <li class="nav-item"><a class="nav-link" href="/rent">Rent an Apartment</a></li>
+                <li class="nav-item"><a class="nav-link" href="/rent">Rent</a></li>
                 <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
             </ul>
@@ -67,19 +68,16 @@
                 </div>
                 <div class="col-md-4">
                     <hr class="light">
-                    <h5>Our School Hours</h5>
+                    <h5>Our Working Hours</h5>
                     <hr class="light">
-                    <p>Monday -- Friday</p>
-                    <p>9am - 4:30pm</p>
+                    <p>Monday -- Sunday</p>
+                    <p>24/7</p>
                 </div>
                 <div class="col-md-4">
                     <hr class="light">
                     <h5>Service Area</h5>
                     <hr class="light">
-                    <p>City, State, 00233</p>
-                    <p>City, State, 00233</p>
-                    <p>City, State, 00233</p>
-                    <p>City, State, 00233</p>
+                    <p>Accra, Ghana, 00233</p>
                 </div>
             </div>
         </div>
