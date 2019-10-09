@@ -55,6 +55,40 @@
     </div>
     @yield('content')
     <footer class="footer-area section-padding">
+        <div class="container-fluid padding">
+            <div class="row text-center">
+                <div class="col-md-4">
+                    <h1>Logo</h1>
+                    <hr class="light">
+                    <p>555-555-5555</p>
+                    <p>email@email.com</p>
+                    <p>GW-9060-2789</p>
+                    <p>Accra, Ghana</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Our School Hours</h5>
+                    <hr class="light">
+                    <p>Monday -- Friday</p>
+                    <p>9am - 4:30pm</p>
+                </div>
+                <div class="col-md-4">
+                    <hr class="light">
+                    <h5>Service Area</h5>
+                    <hr class="light">
+                    <p>City, State, 00233</p>
+                    <p>City, State, 00233</p>
+                    <p>City, State, 00233</p>
+                    <p>City, State, 00233</p>
+                </div>
+                <div class="col-12">
+                    <hr class="light-100">
+                    <h5>&copy;copyright | New School Academy 2019 | All rights Reserved</h5>
+                    <h5>New to New School? <a href="/about">Visit our About page</a> or read our <a href="/terms-of-service">Terms of Service</a></h5>
+                    <h5>or Learn more about our<a href="/privacy-policy"> Privacy Policy</a></h5>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center">
