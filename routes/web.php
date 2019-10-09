@@ -24,6 +24,10 @@ Route::get('/terms-of-service', function () {
     return view('terms');
 });
 
+Route::get('/rent', function () {
+    return view('rent');
+});
+
 Route::get('/gallery/foster', 'FosterHostelController@index');
 Route::get('/gallery', 'GalleryController@index');
 Route::get('/gallery/jp', 'JPromptHostelController@index');
@@ -38,10 +42,6 @@ Route::get('/gallery/bakana', 'BakanaHostelController@index');
 Route::get('/gallery/linda', 'LindaHostelController@index');
 Route::get('/gallery/ark', 'ArkHostelController@index');
 Route::get('/gallery/yellow', 'YellowHostelController@index');
-
-
-
-
 
 Route::get('/contact', function () {
     return view('contact');

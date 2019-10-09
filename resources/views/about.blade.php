@@ -1,6 +1,37 @@
 @extends('layouts.app')
 
 @section('content')
+<div class="container-fluid padding contact-banner bg-dark">
+    <br>
+    <div class="contact-header">
+        <div class="welcome text-center padding">
+            <h1 class="display-4">About Hostel Connect</h1>
+            <hr class="light">
+        </div>
+        <p class="lead text-center">This is just a simple contact page to show you how things work</p>
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="md-12 col-md-6">
+                    <p class="lead text-center">
+                        <a href=".">
+                            <i class="fa fa-phone"></i>
+                            Our Policy
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p class="lead text-center">
+                        <a href=".">
+                            <i class="fa fa-envelope-open"></i>
+                            Our Values
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<br>
 <h1 class="about-header text-center">Who <we>Are</we> We? <br> <small>We provide the best
         hostel services you can ever get</small></h1><br><br>
 <div class="container">

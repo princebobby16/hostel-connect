@@ -9,7 +9,7 @@
                                 user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="/css/app.css">
-    <link rel="icon" type="image/jpg" href="/assets/img/logo.jpg" />
+    <link id="" rel="icon" type="image/jpg" href="/assets/img/logo.jpg" />
     <link rel="stylesheet" type="text/css" href="/css/custom.css">
     <script type="text/javascript" src="/js/app.js"></script>
     <title>Hostel Connect @yield('title')</title>
@@ -28,6 +28,7 @@
             <ul class="nav navbar-nav ml-auto">
                 <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/register">Register</a></li>
+                <li class="nav-item"><a class="nav-link" href="/rent">Rent an Apartment</a></li>
                 <li class="nav-item"><a class="nav-link" href="/about">About</a></li>
                 <li class="nav-item"><a class="nav-link" href="/contact">Contact Us</a></li>
             </ul>

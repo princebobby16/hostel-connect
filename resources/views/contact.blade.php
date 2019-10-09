@@ -1,5 +1,37 @@
 @extends('layouts.app')
 @section('content')
+
+<div class="container-fluid padding contact-banner bg-dark">
+    <br>
+    <div class="contact-header">
+        <div class="welcome text-center padding">
+            <h1 class="display-4"> <i class="fa fa-phone"></i> Get in touch</h1>
+            <hr class="light">
+        </div>
+        <p class="lead text-center">This is just a simple contact page to show you how things work</p>
+        <div class="container-fluid padding">
+            <div class="row padding">
+                <div class="md-12 col-md-6">
+                    <p class="lead text-center">
+                        <a href="tel:+233249622403">
+                            <i class="fa fa-phone"></i>
+                            +233 249622403
+                        </a>
+                    </p>
+                </div>
+                <div class="col-md-6">
+                    <p class="lead text-center">
+                        <a href="mailto:pbobby001@st.ug.edu.gh">
+                            <i class="fa fa-envelope-open"></i>
+                            Email Us
+                        </a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
 <div class="container">
   <div class="my-3 p-3 bg-white rounded shadow-sm">
     <h6 class="border-bottom border-gray pb-2 mb-0">Emails</h6>
