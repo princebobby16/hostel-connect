@@ -17,7 +17,7 @@
 
 <body>
 
-    <nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+    <nav class="navbar navbar-expand-md navbar-dark bg-info sticky-top">
         <div class="navbar-header">
             <a href="#" class="navbar-brand"><img width="40px" height="30px" src="{{ url('../assets/img/logo.jpg') }}" alt=""></a>
         </div>
@@ -54,7 +54,7 @@
         @endif
     </div>
     @yield('content')
-    <footer class="navbar-dark bg-dark section-padding">
+    <footer class="navbar-dark bg-info section-padding">
         <div class="container footer-text padding">
             <div class="row text-center">
                 <div class="col-md-4">

@@ -3,7 +3,7 @@
 @section('content')
 <!-- Banner -->
 
-<div class="container-fluid padding contact-banner bg-dark">
+<div class="container-fluid padding contact-banner bg-info">
     <br>
     <div class="contact-header">
         <div class="welcome text-center padding">
