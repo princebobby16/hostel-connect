@@ -58,7 +58,7 @@
         <div class="container footer-text padding">
             <div class="row text-center">
                 <div class="col-md-4">
-                    <img src="{{ url('../assets/img/logo2.png') }" alt="..." class="img-responsive">
+                    <img src="{{ url('../assets/img/logo2.png') }}" width="100" height="100" alt="..." class="img-responsive">
                     <hr class="light">
                     <p>555-555-5555</p>
                     <p>email@email.com</p>
