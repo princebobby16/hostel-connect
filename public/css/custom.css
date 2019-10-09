@@ -94,6 +94,15 @@ body{
 .about-header{
   margin-top: 30px;
 }
+
+iframe{
+  background: rgb(145, 145, 185);
+}
+
+iframe.map{
+  border: 10px solid blueviolet;
+}
+
 we{
   border-bottom: 10px solid rgb(77, 19, 102);
 }

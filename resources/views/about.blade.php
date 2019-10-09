@@ -89,7 +89,7 @@
         <div class="row padding">
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <img src="{{ url('assets/img/img1.jpeg') }}" alt="" class="card-img-top">
+                    <img src="{{ url('../assets/img/dp.jpeg') }}" alt="" class="card-img-top">
                     <div class="card-body">
                         <!-- <h4 class="card-title">Rolland Torwoe</h4> -->
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -98,7 +98,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card  mb-4 shadow-sm">
-                    <img src="{{ url('assets/img/img1.jpeg') }}" alt="" class="card-img-top">
+                    <img src="{{ url('../assets/img/dp.jpeg') }}" alt="" class="card-img-top">
                     <div class="card-body">
                         <!-- <h4 class="card-title">Rolland Torwoe</h4> -->
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -107,7 +107,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <img src="{{ url('assets/img/img1.jpeg') }}" alt="" class="card-img-top">
+                    <img src="{{ url('../assets/img/dp.jpeg') }}" alt="" class="card-img-top">
                     <div class="card-body">
                         <!-- <h4 class="card-title">Rolland Torwoe</h4> -->
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -116,7 +116,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card mb-4 shadow-sm">
-                    <img src="{{ url('assets/img/img1.jpeg') }}" alt="" class="card-img-top">
+                    <img src="{{ url('../assets/img/dp.jpeg') }}" alt="" class="card-img-top">
                     <div class="card-body">
                         <!-- <h4 class="card-title">Rolland Torwoe</h4> -->
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -125,7 +125,7 @@
             </div>
             <div class="col-md-4">
                 <div class="card">
-                    <img src="{{ url('assets/img/img1.jpeg') }}" alt="" class="card-img-top">
+                    <img src="{{ url('../assets/img/dp.jpeg') }}" alt="" class="card-img-top">
                     <div class="card-body">
                         <!-- <h4 class="card-title">Rolland Torwoe</h4> -->
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -133,6 +133,11 @@
                 </div>
             </div>
         </div>
+    </div>
+
+    <div class="container-fluid padding">
+        <h1 class="text-center display-4">Where are we? ...</h1>
+        <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.431350230762!2d-0.19841844993827387!3d5.650567334242808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9c7ebaeabe93%3A0xd78257e67498c1a0!2sUniversity%20of%20Ghana%2C%20Legon!5e0!3m2!1sen!2sgh!4v1570620237297!5m2!1sen!2sgh" width="1000" height="500" frameborder="0" allowfullscreen=""></iframe>
     </div>
 
 </div>
