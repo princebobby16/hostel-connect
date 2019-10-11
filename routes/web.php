@@ -11,11 +11,11 @@
 |
 */
 
-Route::get('/', function () {
+Route::get('/home', function () {
     return view('welcome');
 });
 
-Route::get('/home', 'HomeController@index');
+Route::get('/', 'HomeController@index');
 
 
 Route::get('/register', 'FormController@create')->name('form.create');

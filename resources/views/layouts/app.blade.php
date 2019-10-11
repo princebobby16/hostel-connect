@@ -27,7 +27,7 @@
         </button>
         <div class="collapse navbar-collapse" id="Menu">
             <ul class="nav navbar-nav ml-auto">
-                <li class="nav-item"><a class="nav-link" href="/home">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="/">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="/register"> <i class="fa fa-pencil"></i> Register</a></li>
                 <li class="nav-item"><a class="nav-link" href="/rent"> <i class="fa fa-home"></i> Rent</a></li>
                 <li class="nav-item"><a class="nav-link" href="/about"> <i class="fa fa-user"></i> About</a></li>
