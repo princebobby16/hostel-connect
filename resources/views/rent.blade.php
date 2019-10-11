@@ -10,7 +10,7 @@
             <h1 class="display-4"> <i class="fa fa-home"></i> Rent</h1>
             <hr class="light">
         </div>
-        <p class="lead text-center ">This is just a simple contact page to show you how things work</p>
+        <!-- <p class="lead text-center ">This is just a simple contact page to show you how things work</p> -->
         <div class="container-fluid padding">
             <div class="row padding">
                 <div class="md-12 col-md-6">
@@ -43,11 +43,11 @@
                     <!-- <h5 class="text-center hostel-head">LINDA DOR HOSTEL</h5> -->
                     <!-- <img src="{{ url('../assets/img/hostelconnectimages/LindaDorHostel/linda.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
                     <div class="card-body">
-                        <p class="card-text">This Hostel has a per semester model. With its location and great facilities.
-                            Linda Dor should be a bargain</p>
+                        <!-- <p class="card-text">This Hostel has a per semester model. With its location and great facilities.
+                            Linda Dor should be a bargain</p> -->
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <a href="/gallery/linda" class="btn btn-info">View</a>
+                                <a href="#" class="btn btn-info">View</a>
                             </div>
                         </div>
                     </div>
@@ -58,15 +58,15 @@
                     <!-- <h5 class="text-center hostel-head">J. PROMPT HOSTEL</h5>
                     <img src="{{ url('assets/img/hostelconnectimages/JPromptHostel/jp.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
                     <div class="card-body">
-                        <p class="card-text">Beauty of the
+                        <!-- <p class="card-text">Beauty of the
                             structure plus its affordability
                             are one strong features of J
                             Prompt Hostel. It has a per semester
                             payment arrangement, also all
-                            utilities are factored into the price.</p>
+                            utilities are factored into the price.</p> -->
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <a href="/gallery/jp" class="btn btn-info">Views</a>
+                                <a href="#" class="btn btn-info">Views</a>
                             </div>
                         </div>
                     </div>
@@ -77,13 +77,13 @@
                     <!-- <h5 class="text-center hostel-head">THE KINGS COURT HOSTEL</h5>
                     <img src="{{ url('assets/img/hostelconnectimages/TheKingsCourtHostel/kings.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
                     <div class="card-body">
-                        <p class="card-text">KingsCourt is
+                        <!-- <p class="card-text">KingsCourt is
                             a top-notch Hostel with all
                             the needs of the student for a
-                            comfortable stay provided for.</p>
+                            comfortable stay provided for.</p> -->
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <a href="/gallery/kings" class="btn btn-info">View</a>
+                                <a href="#" class="btn btn-info">View</a>
                             </div>
                         </div>
                     </div>
@@ -95,13 +95,13 @@
                     <!-- <h5 class="text-center hostel-head">A TESTIMONY HOSTEL</h5>
                     <img src="{{ url('assets/img/hostelconnectimages/ATestimonyHostel/test7.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
                     <div class="card-body">
-                        <p class="card-text">A Testimony Hostel
+                        <!-- <p class="card-text">A Testimony Hostel
                             has a per semester payment systemm with
                             a quiet serene environment with all the
-                            utilities taken care of.</p>
+                            utilities taken care of.</p> -->
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <a href="/gallery/testimony" class="btn btn-info">View</a>
+                                <a href="#" class="btn btn-info">View</a>
                             </div>
                         </div>
                     </div>
@@ -112,13 +112,13 @@
                     <!-- <h5 class="text-center hostel-head">ARK HOSTEL</h5>
                     <img src="{{ url('assets/img/hostelconnectimages/ArkHostel/ark21.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
                     <div class="card-body">
-                        <p class="card-text">Ark Hostel offers a Serene green environment
+                        <!-- <p class="card-text">Ark Hostel offers a Serene green environment
                             coupled with affordable prices and great facilities.
                             It has a per semester or yearly payment system,
-                            also electricity and water are footed by the hostel</p>
+                            also electricity and water are footed by the hostel</p> -->
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <a href="/gallery/ark" class="btn btn-info">View</a>
+                                <a href="#" class="btn btn-info">View</a>
                             </div>
                         </div>
                     </div>
@@ -129,15 +129,68 @@
                     <!-- <h5 class="text-center hostel-head">MAX HOSTEL</h5>
                     <img src="{{ url('assets/img/hostelconnectimages/MaxHostel/max1.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
                     <div class="card-body">
-                        <p class="card-text">Max Hostel
+                        <!-- <p class="card-text">Max Hostel
                             has a per semester or yearly
                             payment model it is located near
                             a busy route and very affordable.
                             Water is free but Students pay
-                            for the light bill.</p>
+                            for the light bill.</p> -->
                         <div class="d-flex justify-content-between align-items-center">
                             <div class="btn-group">
-                                <a href="/gallery/max" class="btn btn-info">View</a>
+                                <a href="#" class="btn btn-info">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <!-- <h5 class="text-center hostel-head">A TESTIMONY HOSTEL</h5>
+                    <img src="{{ url('assets/img/hostelconnectimages/ATestimonyHostel/test7.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
+                    <div class="card-body">
+                        <!-- <p class="card-text">A Testimony Hostel
+                            has a per semester payment systemm with
+                            a quiet serene environment with all the
+                            utilities taken care of.</p> -->
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-info">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <!-- <h5 class="text-center hostel-head">ARK HOSTEL</h5>
+                    <img src="{{ url('assets/img/hostelconnectimages/ArkHostel/ark21.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
+                    <div class="card-body">
+                        <!-- <p class="card-text">Ark Hostel offers a Serene green environment
+                            coupled with affordable prices and great facilities.
+                            It has a per semester or yearly payment system,
+                            also electricity and water are footed by the hostel</p> -->
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-info">View</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card mb-4 shadow-sm">
+                    <!-- <h5 class="text-center hostel-head">MAX HOSTEL</h5>
+                    <img src="{{ url('assets/img/hostelconnectimages/MaxHostel/max1.jpg') }}" height="200px" class="img-responsive" alt="img"> -->
+                    <div class="card-body">
+                        <!-- <p class="card-text">Max Hostel
+                            has a per semester or yearly
+                            payment model it is located near
+                            a busy route and very affordable.
+                            Water is free but Students pay
+                            for the light bill.</p> -->
+                        <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+                                <a href="#" class="btn btn-info">View</a>
                             </div>
                         </div>
                     </div>

@@ -12,7 +12,7 @@
         We will provide the service of helping you find and secure your residence, which is <br> subject to the conditions stated below in this document. Every time you visit this <br> website, use its services, you accept the following conditions. This is why we urge <br> you to read them carefully.
         </p>
         <h3>Privacy Policy</h3>
-        <p>Before you continue using our website we advise you to read our <a href="/privacy-policy">privacy policy</a> <br> regarding our user data collection. It will help you better <br> understand our practices.</p>
+        <p>Before you continue using our website we advise you to read our <span class="color-brown"><a href="/privacy-policy">privacy policy</a></span> <br> regarding our user data collection. It will help you better <br> understand our practices.</p>
         <h3>Copyright</h3>
         <p>Content published on this website (digital downloads, images, texts, graphics, <br> logos) is the property of Hostel Connect or any other name provided thereof and/or <br> its content creators and protected by international copyright laws. The entire <br> compilation of the content found on this website is the exclusive property of Hostel <br> Connect, with copyright authorship for this compilation by Hostel Connect.</p>
         <h3>Communications</h3>

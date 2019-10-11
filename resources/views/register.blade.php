@@ -2,7 +2,7 @@
 
 @section('content')
 <div class="container">
-    <h1 class="text-center register-header hostel-heading">Submit a request</h1>
+    <h1 class="text-center register-header hostel-heading">Submit Request</h1>
     {!! Form::open(['url' => '/register/submit', 'method' => 'POST']) !!}
     <fieldset class="form">
         <!-- First Name -->

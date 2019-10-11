@@ -13,7 +13,16 @@ class YellowHostelController extends Controller
      */
     public function index()
     {
-        $img1 = [];
+        $img1 = [
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+        ];
 
         $facilities = [
             'Fridge',
@@ -22,7 +31,7 @@ class YellowHostelController extends Controller
         ];
         $data = [
             'hostel_name' => 'Yellow Hostel',
-            'img' => '',
+            'img' => 'assets/img/logo.jpg',
             'img1' => $img1,
             'location' => 'East of Legon',
             'description' => 'Yellow Hostel 

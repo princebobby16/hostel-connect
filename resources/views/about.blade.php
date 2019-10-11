@@ -8,7 +8,7 @@
             <h1 class="display-4"> <i class="fa fa-address-book-o"></i> About Hostel Connect</h1>
             <hr class="light">
         </div>
-        <p class="lead text-center">This is just a simple contact page to show you how things work</p>
+        <!-- <p class="lead text-center">This is just a simple contact page to show you how things work</p> -->
         <div class="container-fluid padding">
             <div class="row padding">
                 <div class="md-12 col-md-6">
@@ -49,17 +49,21 @@
                 campus accommodation needs.
             </p>
 
+            <hr>
+
+            <br>
+            <br>
             <div class="row padding">
                 <div class="col-md-4">
                     <div class="card mb-4 shadow-sm">
                         <h2 class="card-title about-header">Our Mission</h2>
                         <div class="card-body">
                             <div class="card-text">
-                                <ul>
+                                <ol>
                                     <li>Making your transition from home to your hostel hassle free</li>
                                     <li>Providing comprehensive data on potential hostels</li>
                                     <li>Providing more than 50+ hostels</li>
-                                </ul>
+                                </ol>
                             </div>
                         </div>
                     </div>
@@ -90,24 +94,6 @@
                         </div>
                     </div>
                 </div>
-                <!-- <div class="col-md-4">
-                    <h2 class="about-header">Our Mission</h2>
-                    <ul>
-                        <li>Making your transition from home to your hostel hassle free</li>
-                        <li>Providing comprehensive data on potential hostels</li>
-                        <li>Providing more than 50+ hostels</li>
-                    </ul>
-                </div> -->
-                <!-- <div class="col-md-4">
-                    <h2 class="about-header">Our Vision</h2>
-                    <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-
-                </div> -->
-                <!-- <div class="col-md-4">
-                    <h2 class="about-header">Our Values</h2>
-                    <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-
-                </div> -->
             </div>
 
         </div>
@@ -130,8 +116,9 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="{{ url('../assets/img/dp.jpeg') }}" alt="" class="card-img-top">
                     <div class="card-body">
-                        <!-- <h4 class="card-title">Rolland Torwoe</h4> -->
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h5>Abu Mohammed</h5>
+                        <p class="card-title">Financial Manager</p>
+                        <p class="card-text">Abu is a very Talented Financial Analyst</p>
                     </div>
                 </div>
             </div>
@@ -139,8 +126,9 @@
                 <div class="card  mb-4 shadow-sm">
                     <img src="{{ url('../assets/img/dp.jpeg') }}" alt="" class="card-img-top">
                     <div class="card-body">
-                        <!-- <h4 class="card-title">Rolland Torwoe</h4> -->
-                        <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        <h4>Prince Bobby</h4>
+                        <p class="card-title">IT Manager</p>
+                        <p class="card-text">Prince Bobby is a phenominal Gentleman who is both an Agric Engineer and a Software Engineer</p>
                     </div>
                 </div>
             </div>
@@ -148,7 +136,8 @@
                 <div class="card mb-4 shadow-sm">
                     <img src="{{ url('../assets/img/dp.jpeg') }}" alt="" class="card-img-top">
                     <div class="card-body">
-                        <!-- <h4 class="card-title">Rolland Torwoe</h4> -->
+                        <h5>Eric Chikudu</h5>
+                        <p class="card-title">Human Resource Manager</p>
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                     </div>
                 </div>
@@ -174,7 +163,7 @@
         </div>
     </div>
 
-    <div class="container-fluid padding">
+    <div class="container-fluid padding md-12">
         <h1 class="text-center display-4">Where are we? ...</h1>
         <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3970.431350230762!2d-0.19841844993827387!3d5.650567334242808!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdf9c7ebaeabe93%3A0xd78257e67498c1a0!2sUniversity%20of%20Ghana%2C%20Legon!5e0!3m2!1sen!2sgh!4v1570620237297!5m2!1sen!2sgh" width="1070" height="500" frameborder="0" allowfullscreen=""></iframe>
     </div>

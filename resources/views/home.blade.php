@@ -160,7 +160,7 @@
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
           <h5 class="text-center hostel-head">PINA PALACE HOSTEL</h5>
-          <img src="{{ url('assets/img/img2.jpeg') }}" height="200px" class="img-responsive" alt="img">
+          <img src="{{ url('assets/img/logo.jpg') }}" height="200px" class="img-responsive" alt="img">
           <div class="card-body">
             <p class="card-text"></p>
             <div class="d-flex justify-content-between align-items-center">
@@ -174,7 +174,7 @@
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
           <h5 class="text-center hostel-head">YELLOW HOSTEL</h5>
-          <img src="{{ url('assets/img/img2.jpeg') }}" height="200px" class="img-responsive" alt="img">
+          <img src="{{ url('assets/img/logo.jpg') }}" height="200px" class="img-responsive" alt="img">
           <div class="card-body">
             <p class="card-text">Yellow Hostel
               has a per semester payment arrangement.
@@ -192,7 +192,7 @@
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
           <h5 class="text-center hostel-head">FOSTER HOSTEL</h5>
-          <img src="{{ url('assets/img/img2.jpeg') }}" height="200px" class="img-responsive" alt="img">
+          <img src="{{ url('assets/img/logo.jpg') }}" height="200px" class="img-responsive" alt="img">
           <div class="card-body">
             <p class="card-text">This hostel gives you the
               feel at Home feeling coupled
@@ -209,7 +209,7 @@
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
           <h5 class="text-center hostel-head">THE HAVEN HOSTEL</h5>
-          <img src="{{ url('assets/img/img2.jpeg') }}" height="200px" class="img-responsive" alt="img">
+          <img src="{{ url('assets/img/logo.jpg') }}" height="200px" class="img-responsive" alt="img">
           <div class="card-body">
             <p class="card-text">This Hostel has a per
               semester payment arrangement
@@ -226,7 +226,7 @@
       <div class="col-md-4">
         <div class="card mb-4 shadow-sm">
           <h5 class="text-center hostel-head">BAKANA HOSTEL</h5>
-          <img src="{{ url('assets/img/img2.jpeg') }}" height="200px" class="img-responsive" alt="img">
+          <img src="{{ url('assets/img/logo.jpg') }}" height="200px" class="img-responsive" alt="img">
           <div class="card-body">
             <p class="card-text">Bakana Hostel
               is a top-notch Hostel offering

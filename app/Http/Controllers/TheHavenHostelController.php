@@ -13,7 +13,16 @@ class TheHavenHostelController extends Controller
      */
     public function index()
     {
-        $img1 = [];
+        $img1 = [
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+        ];
         
         $facilities =  [
             'Free Gas',
@@ -24,7 +33,7 @@ class TheHavenHostelController extends Controller
 
         $data = [
             'hostel_name' => 'The Haven Hostel',
-            'img' => '',
+            'img' => 'assets/img/logo.jpg',
             'img1' => $img1,
             'location' => 'West of Legon',
             'description' => '

@@ -14,7 +14,16 @@ class FosterHostelController extends Controller
     public function index()
     {
 
-        $img1 = [];
+        $img1 = [
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+            'assets/img/logo.jpg',
+        ];
         
         $facilities = [
             'Communal Fridge',
